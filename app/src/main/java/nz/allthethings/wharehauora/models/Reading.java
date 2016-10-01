@@ -2,6 +2,6 @@ package nz.allthethings.wharehauora.models;
 
 import io.realm.RealmObject;
 
-public class User  extends RealmObject {
-    private String name;
+public class Reading extends RealmObject {
+    private Sensor sensor;
 }
