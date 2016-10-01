@@ -15,7 +15,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import nz.allthethings.wharehauora.controllers.AuthController;
-import nz.allthethings.whareora.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
