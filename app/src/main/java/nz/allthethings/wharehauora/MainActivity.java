@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import nz.allthethings.wharehauora.config.Database;
 import nz.allthethings.wharehauora.controllers.AuthController;
 
 public class MainActivity extends AppCompatActivity
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Database.setup(getApplication());
 
         if (!AuthController.isSignedIn()) {
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
