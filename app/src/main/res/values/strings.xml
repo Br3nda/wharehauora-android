@@ -5,6 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="your_photo">your photo</string>
+    <string name="your_username">Your username</string>
+    <string name="youremail_you_com">youremail@you.com</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
